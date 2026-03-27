@@ -64,7 +64,7 @@ const Contact = () => {
               <label className="block text-sm font-medium text-foreground mb-1.5">Message</label>
               <textarea rows={4} className="w-full rounded-lg border border-input bg-background px-4 py-3 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent resize-none" placeholder="Tell us about your project..." />
             </div>
-            <Button className="w-full bg-accent text-accent-foreground hover:bg-accent/90 py-6 text-base font-semibold">
+            <Button className="w-full bg-accent text-foreground hover:bg-accent/90 py-6 text-base font-semibold">
               Send Message
             </Button>
           </form>
